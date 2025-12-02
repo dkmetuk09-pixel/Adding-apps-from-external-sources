@@ -26,8 +26,103 @@
   Ваш браузер не підтримує відтворення аудіо.
 </audio>
 
+    <!-- ====================== СТИЛІ ====================== -->
+<style>
+  .widget-container {
+    max-width: 320px;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+  }
+
+  .widget-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  /* Блок соцмереж */
+  .social-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .social-box a {
+    width: 60px;
+    height: 60px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+
+  .social-box a:hover {
+    background: #ddd;
+  }
+
+  .social-box img {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* Віджети */
+  .informers {
+    margin-top: 20px;
+  }
+
+  .informers iframe,
+  .informers script {
+    width: 100%;
+  }
+</style>
+
+<!-- ====================== ГОТОВИЙ ВІДЖЕТ ====================== -->
+<div class="widget-container">
+
+  <div class="widget-title">Соцмережі</div>
+
+  <div class="social-box">
+    <a href="https://t.me/danila_vodila" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg">
+    </a>
+
+    <a href="viber://chat?number=+380688392431" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/viber.svg">
+    </a>
+
+    <a href="https://signal.me/#p/+380688392431" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/signal.svg">
+    </a>
+  </div>
+
+  <div class="widget-title">Погода</div>
+
+  <!-- Інформер погоди Sinoptik -->
+  <div class="informers">
+    <div id="SinoptikInformer" style="width:100%;"></div>
+    <script type="text/javascript" src="https://sinoptik.ua/informers_js.php?title=1&wind=1&humidity=1&lang=ua&city=dunaivtsi"></script>
+  </div>
+
+  <div class="widget-title">Курс валют</div>
+
+  <!-- Інформер курсу валют Minfin -->
+  <div class="informers">
+    <script src="https://widgets.minfin.com.ua/ua/exchange/rates/?format=horizontal&sum=100"></script>
+  </div>
+
+</div>
+
+
 
 </body>
 
 </html>
+
 
