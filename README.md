@@ -9,8 +9,7 @@
        target="_blank"
        rel="noopener noreferrer">
         Переглянути маршрут на Google Maps
-       
-    </a>
+       </a>
      
 </body>
 
