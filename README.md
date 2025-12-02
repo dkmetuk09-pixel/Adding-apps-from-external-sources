@@ -1,10 +1,8 @@
 # Adding-apps-from-external-sources
-<!doctype html>
 <html>
 
 <head>
     <meta charset="utf-8">
-    <title>Кметюк Данило</title>
 </head>
 
 <body>
